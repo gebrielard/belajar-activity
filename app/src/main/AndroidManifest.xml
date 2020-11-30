@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/SeaTheme">
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".FirstActivity"></activity>
         <activity android:name=".modul.login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".modul.profile.ProfileActivity"></activity>
-        <activity android:name=".modul.todolist.TodolistActivity"></activity>
+        <activity android:name=".modul.profile.ProfileActivity"/>
+        <activity android:name=".modul.todolist.TodolistActivity"/>
+        <activity android:name=".modul.addTask.AddTaskActivity"/>
     </application>
 
 </manifest>

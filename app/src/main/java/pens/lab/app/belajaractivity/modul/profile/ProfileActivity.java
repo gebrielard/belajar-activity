@@ -5,7 +5,6 @@ import android.view.View;
 
 import pens.lab.app.belajaractivity.base.BaseFragmentHolderActivity;
 
-
 public class ProfileActivity extends BaseFragmentHolderActivity {
     ProfileFragment profileFragment;
     private final int UPDATE_REQUEST = 2019;

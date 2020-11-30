@@ -9,6 +9,15 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            tools:text="Test"
+            />
+
         <EditText
             android:id="@+id/et_email"
             android:layout_width="match_parent"

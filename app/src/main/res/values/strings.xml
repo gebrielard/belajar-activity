@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">BelajarActivity</string>
+    <string name="app_name">To do list app</string>
+    <string name="title">Title</string>
+    <string name="no">No</string>
+    <string name="description" >Description</string>
+    <string name="add_your_task">Add Your Task</string>
+    <string name="clear_all">Clear All</string>
 </resources>

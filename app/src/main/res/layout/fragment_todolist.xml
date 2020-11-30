@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:background="?attr/layoutColor">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewTodolist"
+        android:id="@+id/recyclerViewToDoList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/btnAddTask"
+        android:layout_width="145dp"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonAdd"
-        android:text="Add New Task"
-        android:background="@color/seaWaterTwo"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/seaWaterTwo"
+        android:text="@string/add_your_task"
         android:textColor="@color/myTextLight" />
+
+    <Button
+        android:id="@+id/btnClearAll"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/clear_all"
+        android:textColor="@color/myTextLight"
+        android:backgroundTint="@color/seaWaterTwo" />
 </LinearLayout>
